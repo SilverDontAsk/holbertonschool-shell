@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp 644 hello
+chmod o+rx hello
