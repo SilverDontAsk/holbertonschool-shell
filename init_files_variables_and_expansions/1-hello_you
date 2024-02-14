@@ -1,2 +1,2 @@
 #!/bin/bash
-alias MyUser="id" | echo "Hello $(MyUser)"
+echo "Hello $(whoami)"
