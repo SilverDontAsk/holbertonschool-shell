@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello $(whoami)"
+export MyUser="whoami" | echo "Hello $(MyUser)"
